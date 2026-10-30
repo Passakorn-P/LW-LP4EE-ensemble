@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DataSet SYSTEM "CLASSPATH://local/angel/input/DataSet2.dtd">
+<DataSet>
+  <Template>
+    <Field type="categorical" name="ID"/>
+    <Field type="continuous" name="KLOC"/>
+    <Field type="continuous" name="SCRN"/>
+    <Field type="continuous" name="FORM"/>
+    <Field type="continuous" name="FILE"/>
+    <Field type="continuous" name="ESCRN"/>
+    <Field type="continuous" name="EFORM"/>
+    <Field type="continuous" name="EFILE"/>
+    <Field type="continuous" name="MM"/>
+  </Template>
+  <Data>
+    <Case name="case 1">
+      <DataItem value="A1"/>
+      <DataItem value="44.2"/>
+      <DataItem value="24"/>
+      <DataItem value="26"/>
+      <DataItem value="41"/>
+      <DataItem value="246"/>
+      <DataItem value="642"/>
+      <DataItem value="589"/>
+      <DataItem value="59.5"/>
+    </Case>
+    <Case name="case 2">
+      <DataItem value="A2"/>
+      <DataItem value="59"/>
+      <DataItem value="34"/>
+      <DataItem value="30"/>
+      <DataItem value="28"/>
+      <DataItem value="651"/>
+      <DataItem value="447"/>
+      <DataItem value="1143"/>
+      <DataItem value="85"/>
+    </Case>
+    <Case name="case 3">
+      <DataItem value="A3"/>
+      <DataItem value="36.9"/>
+      <DataItem value="9"/>
+      <DataItem value="36"/>
+      <DataItem value="29"/>
+      <DataItem value="193"/>
+      <DataItem value="694"/>
+      <DataItem value="995"/>
+      <DataItem value="31.5"/>
+    </Case>
+    <Case name="case 4">
+      <DataItem value="B1"/>
+      <DataItem value="39.3"/>
+      <DataItem value="27"/>
+      <DataItem value="10"/>
+      <DataItem value="52"/>
+      <DataItem value="389"/>
+      <DataItem value="105"/>
+      <DataItem value="2344"/>
+      <DataItem value="58.9"/>
+    </Case>
+    <Case name="case 5">
+      <DataItem value="B2"/>
+      <DataItem value="48.3"/>
+      <DataItem value="21"/>
+      <DataItem value="22"/>
+      <DataItem value="20"/>
+      <DataItem value="241"/>
+      <DataItem value="371"/>
+      <DataItem value="2052"/>
+      <DataItem value="58.9"/>
+    </Case>
+    <Case name="case 6">
+      <DataItem value="B3"/>
+      <DataItem value="43.1"/>
+      <DataItem value="7"/>
+      <DataItem value="56"/>
+      <DataItem value="32"/>
+      <DataItem value="113"/>
+      <DataItem value="906"/>
+      <DataItem value="1816"/>
+      <DataItem value="67.3"/>
+    </Case>
+    <Case name="case 7">
+      <DataItem value="C1"/>
+      <DataItem value="9.7"/>
+      <DataItem value="3"/>
+      <DataItem value="9"/>
+      <DataItem value="9"/>
+      <DataItem value="206"/>
+      <DataItem value="194"/>
+      <DataItem value="553"/>
+      <DataItem value="8.2"/>
+    </Case>
+    <Case name="case 8">
+      <DataItem value="C2"/>
+      <DataItem value="13.7"/>
+      <DataItem value="12"/>
+      <DataItem value="8"/>
+      <DataItem value="12"/>
+      <DataItem value="214"/>
+      <DataItem value="266"/>
+      <DataItem value="496"/>
+      <DataItem value="13.9"/>
+    </Case>
+    <Case name="case 9">
+      <DataItem value="C3"/>
+      <DataItem value="59.7"/>
+      <DataItem value="32"/>
+      <DataItem value="39"/>
+      <DataItem value="13"/>
+      <DataItem value="330"/>
+      <DataItem value="1189"/>
+      <DataItem value="477"/>
+      <DataItem value="36"/>
+    </Case>
+    <Case name="case 10">
+      <DataItem value="D1"/>
+      <DataItem value="84.4"/>
+      <DataItem value="61"/>
+      <DataItem value="38"/>
+      <DataItem value="24"/>
+      <DataItem value="898"/>
+      <DataItem value="675"/>
+      <DataItem value="1313"/>
+      <DataItem value="89.5"/>
+    </Case>
+    <Case name="case 11">
+      <DataItem value="D2"/>
+      <DataItem value="56.5"/>
+      <DataItem value="37"/>
+      <DataItem value="19"/>
+      <DataItem value="18"/>
+      <DataItem value="411"/>
+      <DataItem value="238"/>
+      <DataItem value="521"/>
+      <DataItem value="39.5"/>
+    </Case>
+    <Case name="case 12">
+      <DataItem value="D3"/>
+      <DataItem value="42.1"/>
+      <DataItem value="31"/>
+      <DataItem value="11"/>
+      <DataItem value="12"/>
+      <DataItem value="299"/>
+      <DataItem value="62"/>
+      <DataItem value="433"/>
+      <DataItem value="27.5"/>
+    </Case>
+    <Case name="case 13">
+      <DataItem value="E1"/>
+      <DataItem value="84.6"/>
+      <DataItem value="26"/>
+      <DataItem value="34"/>
+      <DataItem value="22"/>
+      <DataItem value="106"/>
+      <DataItem value="635"/>
+      <DataItem value="482"/>
+      <DataItem value="103.5"/>
+    </Case>
+    <Case name="case 14">
+      <DataItem value="E2"/>
+      <DataItem value="390"/>
+      <DataItem value="150"/>
+      <DataItem value="72"/>
+      <DataItem value="62"/>
+      <DataItem value="1531"/>
+      <DataItem value="861"/>
+      <DataItem value="1832"/>
+      <DataItem value="212"/>
+    </Case>
+    <Case name="case 15">
+      <DataItem value="F1"/>
+      <DataItem value="55.8"/>
+      <DataItem value="47"/>
+      <DataItem value="7"/>
+      <DataItem value="38"/>
+      <DataItem value="1577"/>
+      <DataItem value="339"/>
+      <DataItem value="941"/>
+      <DataItem value="48"/>
+    </Case>
+    <Case name="case 16">
+      <DataItem value="G1"/>
+      <DataItem value="59.8"/>
+      <DataItem value="57"/>
+      <DataItem value="36"/>
+      <DataItem value="31"/>
+      <DataItem value="1191"/>
+      <DataItem value="569"/>
+      <DataItem value="1041"/>
+      <DataItem value="18"/>
+    </Case>
+    <Case name="case 17">
+      <DataItem value="G2"/>
+      <DataItem value="68.9"/>
+      <DataItem value="49"/>
+      <DataItem value="29"/>
+      <DataItem value="35"/>
+      <DataItem value="1523"/>
+      <DataItem value="1148"/>
+      <DataItem value="1333"/>
+      <DataItem value="43.8"/>
+    </Case>
+    <Case name="case 18">
+      <DataItem value="G3"/>
+      <DataItem value="8.6"/>
+      <DataItem value="6"/>
+      <DataItem value="3"/>
+      <DataItem value="10"/>
+      <DataItem value="128"/>
+      <DataItem value="47"/>
+      <DataItem value="115"/>
+      <DataItem value="7.1"/>
+    </Case>
+    <Case name="case 19">
+      <DataItem value="H1"/>
+      <DataItem value="22.3"/>
+      <DataItem value="0"/>
+      <DataItem value="20"/>
+      <DataItem value="22"/>
+      <DataItem value="0"/>
+      <DataItem value="433"/>
+      <DataItem value="777"/>
+      <DataItem value="20.6"/>
+    </Case>
+    <Case name="case 20">
+      <DataItem value="H2"/>
+      <DataItem value="79.1"/>
+      <DataItem value="34"/>
+      <DataItem value="51"/>
+      <DataItem value="35"/>
+      <DataItem value="665"/>
+      <DataItem value="1211"/>
+      <DataItem value="1169"/>
+      <DataItem value="32.7"/>
+    </Case>
+    <Case name="case 21">
+      <DataItem value="I1"/>
+      <DataItem value="13.7"/>
+      <DataItem value="3"/>
+      <DataItem value="7"/>
+      <DataItem value="2"/>
+      <DataItem value="57"/>
+      <DataItem value="105"/>
+      <DataItem value="163"/>
+      <DataItem value="9"/>
+    </Case>
+    <Case name="case 22">
+      <DataItem value="I2"/>
+      <DataItem value="7.8"/>
+      <DataItem value="2"/>
+      <DataItem value="9"/>
+      <DataItem value="3"/>
+      <DataItem value="55"/>
+      <DataItem value="285"/>
+      <DataItem value="57"/>
+      <DataItem value="7.5"/>
+    </Case>
+    <Case name="case 23">
+      <DataItem value="J1"/>
+      <DataItem value="42.1"/>
+      <DataItem value="36"/>
+      <DataItem value="13"/>
+      <DataItem value="6"/>
+      <DataItem value="461"/>
+      <DataItem value="286"/>
+      <DataItem value="83"/>
+      <DataItem value="37.2"/>
+    </Case>
+    <Case name="case 24">
+      <DataItem value="J2"/>
+      <DataItem value="46.6"/>
+      <DataItem value="29"/>
+      <DataItem value="10"/>
+      <DataItem value="9"/>
+      <DataItem value="125"/>
+      <DataItem value="283"/>
+      <DataItem value="338"/>
+      <DataItem value="59.1"/>
+    </Case>
+    <Case name="case 25">
+      <DataItem value="J3"/>
+      <DataItem value="86.1"/>
+      <DataItem value="16"/>
+      <DataItem value="19"/>
+      <DataItem value="39"/>
+      <DataItem value="357"/>
+      <DataItem value="432"/>
+      <DataItem value="873"/>
+      <DataItem value="54"/>
+    </Case>
+    <Case name="case 26">
+      <DataItem value="K1"/>
+      <DataItem value="72.1"/>
+      <DataItem value="21"/>
+      <DataItem value="17"/>
+      <DataItem value="18"/>
+      <DataItem value="647"/>
+      <DataItem value="581"/>
+      <DataItem value="971"/>
+      <DataItem value="37.1"/>
+    </Case>
+    <Case name="case 27">
+      <DataItem value="K2"/>
+      <DataItem value="272.7"/>
+      <DataItem value="68"/>
+      <DataItem value="50"/>
+      <DataItem value="47"/>
+      <DataItem value="2113"/>
+      <DataItem value="1336"/>
+      <DataItem value="1744"/>
+      <DataItem value="157"/>
+    </Case>
+    <Case name="case 28">
+      <DataItem value="K3"/>
+      <DataItem value="130.6"/>
+      <DataItem value="38"/>
+      <DataItem value="44"/>
+      <DataItem value="10"/>
+      <DataItem value="1247"/>
+      <DataItem value="1566"/>
+      <DataItem value="498"/>
+      <DataItem value="39"/>
+    </Case>
+    <Case name="case 29">
+      <DataItem value="L1"/>
+      <DataItem value="192.2"/>
+      <DataItem value="132"/>
+      <DataItem value="18"/>
+      <DataItem value="100"/>
+      <DataItem value="1776"/>
+      <DataItem value="426"/>
+      <DataItem value="3800"/>
+      <DataItem value="170"/>
+    </Case>
+    <Case name="case 30">
+      <DataItem value="L2"/>
+      <DataItem value="31.5"/>
+      <DataItem value="14"/>
+      <DataItem value="3"/>
+      <DataItem value="16"/>
+      <DataItem value="395"/>
+      <DataItem value="135"/>
+      <DataItem value="717"/>
+      <DataItem value="37"/>
+    </Case>
+    <Case name="case 31">
+      <DataItem value="L3"/>
+      <DataItem value="226.1"/>
+      <DataItem value="26"/>
+      <DataItem value="76"/>
+      <DataItem value="70"/>
+      <DataItem value="360"/>
+      <DataItem value="1200"/>
+      <DataItem value="1832"/>
+      <DataItem value="340"/>
+    </Case>
+    <Case name="case 32">
+      <DataItem value="M1"/>
+      <DataItem value="417.6"/>
+      <DataItem value="281"/>
+      <DataItem value="91"/>
+      <DataItem value="370"/>
+      <DataItem value="3000"/>
+      <DataItem value="1100"/>
+      <DataItem value="45000"/>
+      <DataItem value="1586"/>
+    </Case>
+    <Case name="case 33">
+      <DataItem value="N1"/>
+      <DataItem value="20.2"/>
+      <DataItem value="9"/>
+      <DataItem value="4"/>
+      <DataItem value="7"/>
+      <DataItem value="258"/>
+      <DataItem value="73"/>
+      <DataItem value="167"/>
+      <DataItem value="29"/>
+    </Case>
+    <Case name="case 34">
+      <DataItem value="N2"/>
+      <DataItem value="19.1"/>
+      <DataItem value="0"/>
+      <DataItem value="16"/>
+      <DataItem value="10"/>
+      <DataItem value="0"/>
+      <DataItem value="346"/>
+      <DataItem value="354"/>
+      <DataItem value="36.9"/>
+    </Case>
+    <Case name="case 35">
+      <DataItem value="N3"/>
+      <DataItem value="31.2"/>
+      <DataItem value="31"/>
+      <DataItem value="2"/>
+      <DataItem value="13"/>
+      <DataItem value="394"/>
+      <DataItem value="45"/>
+      <DataItem value="388"/>
+      <DataItem value="37"/>
+    </Case>
+    <Case name="case 36">
+      <DataItem value="N4"/>
+      <DataItem value="23.7"/>
+      <DataItem value="11"/>
+      <DataItem value="9"/>
+      <DataItem value="6"/>
+      <DataItem value="553"/>
+      <DataItem value="309"/>
+      <DataItem value="265"/>
+      <DataItem value="23"/>
+    </Case>
+    <Case name="case 37">
+      <DataItem value="O1"/>
+      <DataItem value="43"/>
+      <DataItem value="23"/>
+      <DataItem value="12"/>
+      <DataItem value="41"/>
+      <DataItem value="397"/>
+      <DataItem value="426"/>
+      <DataItem value="1135"/>
+      <DataItem value="52"/>
+    </Case>
+    <Case name="case 38">
+      <DataItem value="O2"/>
+      <DataItem value="20.2"/>
+      <DataItem value="25"/>
+      <DataItem value="5"/>
+      <DataItem value="25"/>
+      <DataItem value="206"/>
+      <DataItem value="66"/>
+      <DataItem value="598"/>
+      <DataItem value="22"/>
+    </Case>
+    <Case name="case 39">
+      <DataItem value="P1"/>
+      <DataItem value="54.6"/>
+      <DataItem value="12"/>
+      <DataItem value="11"/>
+      <DataItem value="25"/>
+      <DataItem value="115"/>
+      <DataItem value="187"/>
+      <DataItem value="1070"/>
+      <DataItem value="42.3"/>
+    </Case>
+    <Case name="case 40">
+      <DataItem value="P2"/>
+      <DataItem value="37.5"/>
+      <DataItem value="14"/>
+      <DataItem value="14"/>
+      <DataItem value="23"/>
+      <DataItem value="315"/>
+      <DataItem value="185"/>
+      <DataItem value="609"/>
+      <DataItem value="34.3"/>
+    </Case>
+    <Case name="case 41">
+      <DataItem value="P3"/>
+      <DataItem value="64.1"/>
+      <DataItem value="10"/>
+      <DataItem value="10"/>
+      <DataItem value="59"/>
+      <DataItem value="186"/>
+      <DataItem value="167"/>
+      <DataItem value="1569"/>
+      <DataItem value="55.7"/>
+    </Case>
+    <Case name="case 42">
+      <DataItem value="P4"/>
+      <DataItem value="49.2"/>
+      <DataItem value="0"/>
+      <DataItem value="16"/>
+      <DataItem value="53"/>
+      <DataItem value="0"/>
+      <DataItem value="236"/>
+      <DataItem value="1488"/>
+      <DataItem value="39"/>
+    </Case>
+    <Case name="case 43">
+      <DataItem value="Q1"/>
+      <DataItem value="50.8"/>
+      <DataItem value="71"/>
+      <DataItem value="13"/>
+      <DataItem value="50"/>
+      <DataItem value="590"/>
+      <DataItem value="255"/>
+      <DataItem value="660"/>
+      <DataItem value="120"/>
+    </Case>
+    <Case name="case 44">
+      <DataItem value="Q2"/>
+      <DataItem value="17.1"/>
+      <DataItem value="5"/>
+      <DataItem value="16"/>
+      <DataItem value="37"/>
+      <DataItem value="62"/>
+      <DataItem value="403"/>
+      <DataItem value="872"/>
+      <DataItem value="6"/>
+    </Case>
+    <Case name="case 45">
+      <DataItem value="R1"/>
+      <DataItem value="6.9"/>
+      <DataItem value="0"/>
+      <DataItem value="0"/>
+      <DataItem value="28"/>
+      <DataItem value="0"/>
+      <DataItem value="0"/>
+      <DataItem value="1338"/>
+      <DataItem value="5.6"/>
+    </Case>
+    <Case name="case 46">
+      <DataItem value="R2"/>
+      <DataItem value="25.2"/>
+      <DataItem value="8"/>
+      <DataItem value="9"/>
+      <DataItem value="6"/>
+      <DataItem value="99"/>
+      <DataItem value="143"/>
+      <DataItem value="955"/>
+      <DataItem value="20.1"/>
+    </Case>
+    <Case name="case 47">
+      <DataItem value="S1"/>
+      <DataItem value="55"/>
+      <DataItem value="14"/>
+      <DataItem value="24"/>
+      <DataItem value="47"/>
+      <DataItem value="202"/>
+      <DataItem value="504"/>
+      <DataItem value="932"/>
+      <DataItem value="31.5"/>
+    </Case>
+    <Case name="case 48">
+      <DataItem value="T1"/>
+      <DataItem value="35.1"/>
+      <DataItem value="51"/>
+      <DataItem value="0"/>
+      <DataItem value="6"/>
+      <DataItem value="347"/>
+      <DataItem value="0"/>
+      <DataItem value="122"/>
+      <DataItem value="50.1"/>
+    </Case>
+  </Data>
+</DataSet>

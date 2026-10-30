@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DataSet SYSTEM "CLASSPATH://local/angel/input/DataSet2.dtd">
+<DataSet>
+	
+	<Template>
+		<Field name='ActualEffort' type='continuous' />
+		<Field name='Duration' type='continuous' />
+		<Field name='ExpEquip' type='continuous' />
+		<Field name='ExpProjMan' type='continuous' />
+		<Field name='Transactions' type='continuous' />
+		<Field name='RawFPs' type='continuous' />
+		<Field name='AdjFactor' type='continuous' />
+		<Field name='AdjFPs' type='continuous' />
+		<Field name='DevEnv' type='categorical' />
+		<Field name='YearFin' type='continuous' />
+		<Field name='Entities' type='continuous' />
+	</Template>
+
+	<Data>
+		<Case name='case 1'>
+			<DataItem value='5152.0' />
+			<DataItem value='12.0' />
+			<DataItem value='1.0' />
+			<DataItem value='4.0' />
+			<DataItem value='253.0' />
+			<DataItem value='305.0' />
+			<DataItem value='34.0' />
+			<DataItem value='302.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='52.0' />
+		</Case>
+
+		<Case name='case 2'>
+			<DataItem value='5635.0' />
+			<DataItem value='4.0' />
+			<DataItem value='0.0' />
+			<DataItem value='0.0' />
+			<DataItem value='197.0' />
+			<DataItem value='321.0' />
+			<DataItem value='33.0' />
+			<DataItem value='315.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='124.0' />
+		</Case>
+
+		<Case name='case 3'>
+			<DataItem value='805.0' />
+			<DataItem value='1.0' />
+			<DataItem value='4.0' />
+			<DataItem value='4.0' />
+			<DataItem value='40.0' />
+			<DataItem value='100.0' />
+			<DataItem value='18.0' />
+			<DataItem value='83.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='60.0' />
+		</Case>
+
+		<Case name='case 4'>
+			<DataItem value='3829.0' />
+			<DataItem value='5.0' />
+			<DataItem value='0.0' />
+			<DataItem value='0.0' />
+			<DataItem value='200.0' />
+			<DataItem value='319.0' />
+			<DataItem value='30.0' />
+			<DataItem value='303.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='119.0' />
+		</Case>
+
+		<Case name='case 5'>
+			<DataItem value='2149.0' />
+			<DataItem value='4.0' />
+			<DataItem value='0.0' />
+			<DataItem value='0.0' />
+			<DataItem value='140.0' />
+			<DataItem value='234.0' />
+			<DataItem value='24.0' />
+			<DataItem value='208.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='94.0' />
+		</Case>
+
+		<Case name='case 6'>
+			<DataItem value='2821.0' />
+			<DataItem value='4.0' />
+			<DataItem value='0.0' />
+			<DataItem value='0.0' />
+			<DataItem value='97.0' />
+			<DataItem value='186.0' />
+			<DataItem value='38.0' />
+			<DataItem value='192.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='89.0' />
+		</Case>
+
+		<Case name='case 7'>
+			<DataItem value='2569.0' />
+			<DataItem value='9.0' />
+			<DataItem value='2.0' />
+			<DataItem value='1.0' />
+			<DataItem value='119.0' />
+			<DataItem value='161.0' />
+			<DataItem value='25.0' />
+			<DataItem value='145.0' />
+			<DataItem value='2.0' />
+			<DataItem value='85.0' />
+			<DataItem value='42.0' />
+		</Case>
+
+		<Case name='case 8'>
+			<DataItem value='3913.0' />
+			<DataItem value='13.0' />
+			<DataItem value='1.0' />
+			<DataItem value='2.0' />
+			<DataItem value='186.0' />
+			<DataItem value='238.0' />
+			<DataItem value='25.0' />
+			<DataItem value='214.0' />
+			<DataItem value='1.0' />
+			<DataItem value='83.0' />
+			<DataItem value='52.0' />
+		</Case>
+
+		<Case name='case 9'>
+			<DataItem value='7854.0' />
+			<DataItem value='12.0' />
+			<DataItem value='3.0' />
+			<DataItem value='1.0' />
+			<DataItem value='172.0' />
+			<DataItem value='260.0' />
+			<DataItem value='30.0' />
+			<DataItem value='247.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='88.0' />
+		</Case>
+
+		<Case name='case 10'>
+			<DataItem value='2422.0' />
+			<DataItem value='4.0' />
+			<DataItem value='3.0' />
+			<DataItem value='4.0' />
+			<DataItem value='78.0' />
+			<DataItem value='116.0' />
+			<DataItem value='24.0' />
+			<DataItem value='103.0' />
+			<DataItem value='1.0' />
+			<DataItem value='83.0' />
+			<DataItem value='38.0' />
+		</Case>
+
+		<Case name='case 11'>
+			<DataItem value='4067.0' />
+			<DataItem value='21.0' />
+			<DataItem value='4.0' />
+			<DataItem value='1.0' />
+			<DataItem value='167.0' />
+			<DataItem value='266.0' />
+			<DataItem value='24.0' />
+			<DataItem value='237.0' />
+			<DataItem value='1.0' />
+			<DataItem value='84.0' />
+			<DataItem value='99.0' />
+		</Case>
+
+		<Case name='case 12'>
+			<DataItem value='9051.0' />
+			<DataItem value='17.0' />
+			<DataItem value='2.0' />
+			<DataItem value='1.0' />
+			<DataItem value='146.0' />
+			<DataItem value='258.0' />
+			<DataItem value='40.0' />
+			<DataItem value='271.0' />
+			<DataItem value='1.0' />
+			<DataItem value='84.0' />
+			<DataItem value='112.0' />
+		</Case>
+
+		<Case name='case 13'>
+			<DataItem value='2282.0' />
+			<DataItem value='3.0' />
+			<DataItem value='1.0' />
+			<DataItem value='1.0' />
+			<DataItem value='33.0' />
+			<DataItem value='105.0' />
+			<DataItem value='19.0' />
+			<DataItem value='88.0' />
+			<DataItem value='1.0' />
+			<DataItem value='84.0' />
+			<DataItem value='72.0' />
+		</Case>
+
+		<Case name='case 14'>
+			<DataItem value='4172.0' />
+			<DataItem value='8.0' />
+			<DataItem value='3.0' />
+			<DataItem value='4.0' />
+			<DataItem value='162.0' />
+			<DataItem value='223.0' />
+			<DataItem value='32.0' />
+			<DataItem value='216.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='61.0' />
+		</Case>
+
+		<Case name='case 15'>
+			<DataItem value='4977.0' />
+			<DataItem value='9.0' />
+			<DataItem value='4.0' />
+			<DataItem value='4.0' />
+			<DataItem value='223.0' />
+			<DataItem value='344.0' />
+			<DataItem value='28.0' />
+			<DataItem value='320.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='121.0' />
+		</Case>
+
+		<Case name='case 16'>
+			<DataItem value='1617.0' />
+			<DataItem value='8.0' />
+			<DataItem value='3.0' />
+			<DataItem value='2.0' />
+			<DataItem value='119.0' />
+			<DataItem value='167.0' />
+			<DataItem value='26.0' />
+			<DataItem value='152.0' />
+			<DataItem value='2.0' />
+			<DataItem value='85.0' />
+			<DataItem value='48.0' />
+		</Case>
+
+		<Case name='case 17'>
+			<DataItem value='3192.0' />
+			<DataItem value='8.0' />
+			<DataItem value='4.0' />
+			<DataItem value='3.0' />
+			<DataItem value='57.0' />
+			<DataItem value='100.0' />
+			<DataItem value='43.0' />
+			<DataItem value='108.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='43.0' />
+		</Case>
+
+		<Case name='case 18'>
+			<DataItem value='3437.0' />
+			<DataItem value='14.0' />
+			<DataItem value='4.0' />
+			<DataItem value='4.0' />
+			<DataItem value='68.0' />
+			<DataItem value='384.0' />
+			<DataItem value='20.0' />
+			<DataItem value='326.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='316.0' />
+		</Case>
+
+		<Case name='case 19'>
+			<DataItem value='4494.0' />
+			<DataItem value='14.0' />
+			<DataItem value='3.0' />
+			<DataItem value='4.0' />
+			<DataItem value='9.0' />
+			<DataItem value='395.0' />
+			<DataItem value='21.0' />
+			<DataItem value='340.0' />
+			<DataItem value='2.0' />
+			<DataItem value='87.0' />
+			<DataItem value='386.0' />
+		</Case>
+
+		<Case name='case 20'>
+			<DataItem value='840.0' />
+			<DataItem value='5.0' />
+			<DataItem value='4.0' />
+			<DataItem value='2.0' />
+			<DataItem value='58.0' />
+			<DataItem value='92.0' />
+			<DataItem value='29.0' />
+			<DataItem value='86.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='34.0' />
+		</Case>
+
+		<Case name='case 21'>
+			<DataItem value='14973.0' />
+			<DataItem value='12.0' />
+			<DataItem value='4.0' />
+			<DataItem value='4.0' />
+			<DataItem value='318.0' />
+			<DataItem value='587.0' />
+			<DataItem value='34.0' />
+			<DataItem value='581.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='269.0' />
+		</Case>
+
+		<Case name='case 22'>
+			<DataItem value='5180.0' />
+			<DataItem value='18.0' />
+			<DataItem value='2.0' />
+			<DataItem value='4.0' />
+			<DataItem value='88.0' />
+			<DataItem value='258.0' />
+			<DataItem value='34.0' />
+			<DataItem value='255.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='170.0' />
+		</Case>
+
+		<Case name='case 23'>
+			<DataItem value='5775.0' />
+			<DataItem value='5.0' />
+			<DataItem value='2.0' />
+			<DataItem value='4.0' />
+			<DataItem value='306.0' />
+			<DataItem value='438.0' />
+			<DataItem value='37.0' />
+			<DataItem value='447.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='132.0' />
+		</Case>
+
+		<Case name='case 24'>
+			<DataItem value='10577.0' />
+			<DataItem value='20.0' />
+			<DataItem value='4.0' />
+			<DataItem value='1.0' />
+			<DataItem value='304.0' />
+			<DataItem value='382.0' />
+			<DataItem value='39.0' />
+			<DataItem value='397.0' />
+			<DataItem value='1.0' />
+			<DataItem value='87.0' />
+			<DataItem value='78.0' />
+		</Case>
+
+		<Case name='case 25'>
+			<DataItem value='3983.0' />
+			<DataItem value='8.0' />
+			<DataItem value='1.0' />
+			<DataItem value='4.0' />
+			<DataItem value='89.0' />
+			<DataItem value='289.0' />
+			<DataItem value='33.0' />
+			<DataItem value='283.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='200.0' />
+		</Case>
+
+		<Case name='case 26'>
+			<DataItem value='3164.0' />
+			<DataItem value='14.0' />
+			<DataItem value='4.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='316.0' />
+			<DataItem value='33.0' />
+			<DataItem value='310.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='230.0' />
+		</Case>
+
+		<Case name='case 27'>
+			<DataItem value='3542.0' />
+			<DataItem value='6.0' />
+			<DataItem value='2.0' />
+			<DataItem value='0.0' />
+			<DataItem value='71.0' />
+			<DataItem value='306.0' />
+			<DataItem value='37.0' />
+			<DataItem value='312.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='235.0' />
+		</Case>
+
+		<Case name='case 28'>
+			<DataItem value='4277.0' />
+			<DataItem value='14.0' />
+			<DataItem value='3.0' />
+			<DataItem value='1.0' />
+			<DataItem value='148.0' />
+			<DataItem value='472.0' />
+			<DataItem value='39.0' />
+			<DataItem value='491.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='324.0' />
+		</Case>
+
+		<Case name='case 29'>
+			<DataItem value='7252.0' />
+			<DataItem value='16.0' />
+			<DataItem value='4.0' />
+			<DataItem value='4.0' />
+			<DataItem value='116.0' />
+			<DataItem value='286.0' />
+			<DataItem value='27.0' />
+			<DataItem value='263.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='170.0' />
+		</Case>
+
+		<Case name='case 30'>
+			<DataItem value='3948.0' />
+			<DataItem value='14.0' />
+			<DataItem value='4.0' />
+			<DataItem value='1.0' />
+			<DataItem value='175.0' />
+			<DataItem value='452.0' />
+			<DataItem value='37.0' />
+			<DataItem value='461.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='277.0' />
+		</Case>
+
+		<Case name='case 31'>
+			<DataItem value='3927.0' />
+			<DataItem value='6.0' />
+			<DataItem value='4.0' />
+			<DataItem value='3.0' />
+			<DataItem value='79.0' />
+			<DataItem value='207.0' />
+			<DataItem value='27.0' />
+			<DataItem value='190.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='128.0' />
+		</Case>
+
+		<Case name='case 32'>
+			<DataItem value='710.0' />
+			<DataItem value='9.0' />
+			<DataItem value='1.0' />
+			<DataItem value='1.0' />
+			<DataItem value='145.0' />
+			<DataItem value='183.0' />
+			<DataItem value='27.0' />
+			<DataItem value='168.0' />
+			<DataItem value='3.0' />
+			<DataItem value='86.0' />
+			<DataItem value='38.0' />
+		</Case>
+
+		<Case name='case 33'>
+			<DataItem value='2429.0' />
+			<DataItem value='9.0' />
+			<DataItem value='4.0' />
+			<DataItem value='4.0' />
+			<DataItem value='174.0' />
+			<DataItem value='252.0' />
+			<DataItem value='41.0' />
+			<DataItem value='267.0' />
+			<DataItem value='3.0' />
+			<DataItem value='87.0' />
+			<DataItem value='78.0' />
+		</Case>
+
+		<Case name='case 34'>
+			<DataItem value='6405.0' />
+			<DataItem value='5.0' />
+			<DataItem value='1.0' />
+			<DataItem value='1.0' />
+			<DataItem value='194.0' />
+			<DataItem value='285.0' />
+			<DataItem value='35.0' />
+			<DataItem value='285.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='91.0' />
+		</Case>
+
+		<Case name='case 35'>
+			<DataItem value='651.0' />
+			<DataItem value='3.0' />
+			<DataItem value='2.0' />
+			<DataItem value='2.0' />
+			<DataItem value='126.0' />
+			<DataItem value='175.0' />
+			<DataItem value='38.0' />
+			<DataItem value='180.0' />
+			<DataItem value='3.0' />
+			<DataItem value='88.0' />
+			<DataItem value='49.0' />
+		</Case>
+
+		<Case name='case 36'>
+			<DataItem value='9135.0' />
+			<DataItem value='17.0' />
+			<DataItem value='1.0' />
+			<DataItem value='3.0' />
+			<DataItem value='137.0' />
+			<DataItem value='256.0' />
+			<DataItem value='34.0' />
+			<DataItem value='253.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='119.0' />
+		</Case>
+
+		<Case name='case 37'>
+			<DataItem value='1435.0' />
+			<DataItem value='11.0' />
+			<DataItem value='2.0' />
+			<DataItem value='4.0' />
+			<DataItem value='289.0' />
+			<DataItem value='377.0' />
+			<DataItem value='28.0' />
+			<DataItem value='351.0' />
+			<DataItem value='3.0' />
+			<DataItem value='87.0' />
+			<DataItem value='88.0' />
+		</Case>
+
+		<Case name='case 38'>
+			<DataItem value='847.0' />
+			<DataItem value='4.0' />
+			<DataItem value='1.0' />
+			<DataItem value='4.0' />
+			<DataItem value='158.0' />
+			<DataItem value='217.0' />
+			<DataItem value='18.0' />
+			<DataItem value='180.0' />
+			<DataItem value='3.0' />
+			<DataItem value='88.0' />
+			<DataItem value='59.0' />
+		</Case>
+
+		<Case name='case 39'>
+			<DataItem value='8050.0' />
+			<DataItem value='16.0' />
+			<DataItem value='3.0' />
+			<DataItem value='3.0' />
+			<DataItem value='302.0' />
+			<DataItem value='447.0' />
+			<DataItem value='52.0' />
+			<DataItem value='523.0' />
+			<DataItem value='2.0' />
+			<DataItem value='88.0' />
+			<DataItem value='145.0' />
+		</Case>
+
+		<Case name='case 40'>
+			<DataItem value='4620.0' />
+			<DataItem value='9.0' />
+			<DataItem value='1.0' />
+			<DataItem value='1.0' />
+			<DataItem value='451.0' />
+			<DataItem value='499.0' />
+			<DataItem value='28.0' />
+			<DataItem value='464.0' />
+			<DataItem value='1.0' />
+			<DataItem value='87.0' />
+			<DataItem value='48.0' />
+		</Case>
+
+		<Case name='case 41'>
+			<DataItem value='2352.0' />
+			<DataItem value='34.0' />
+			<DataItem value='2.0' />
+			<DataItem value='4.0' />
+			<DataItem value='661.0' />
+			<DataItem value='793.0' />
+			<DataItem value='23.0' />
+			<DataItem value='698.0' />
+			<DataItem value='3.0' />
+			<DataItem value='87.0' />
+			<DataItem value='132.0' />
+		</Case>
+
+		<Case name='case 42'>
+			<DataItem value='2174.0' />
+			<DataItem value='10.0' />
+			<DataItem value='1.0' />
+			<DataItem value='1.0' />
+			<DataItem value='64.0' />
+			<DataItem value='118.0' />
+			<DataItem value='25.0' />
+			<DataItem value='106.0' />
+			<DataItem value='1.0' />
+			<DataItem value='88.0' />
+			<DataItem value='54.0' />
+		</Case>
+
+		<Case name='case 43'>
+			<DataItem value='6699.0' />
+			<DataItem value='18.0' />
+			<DataItem value='2.0' />
+			<DataItem value='1.0' />
+			<DataItem value='182.0' />
+			<DataItem value='308.0' />
+			<DataItem value='35.0' />
+			<DataItem value='308.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='126.0' />
+		</Case>
+
+		<Case name='case 44'>
+			<DataItem value='14987.0' />
+			<DataItem value='27.0' />
+			<DataItem value='2.0' />
+			<DataItem value='3.0' />
+			<DataItem value='173.0' />
+			<DataItem value='505.0' />
+			<DataItem value='19.0' />
+			<DataItem value='424.0' />
+			<DataItem value='1.0' />
+			<DataItem value='87.0' />
+			<DataItem value='332.0' />
+		</Case>
+
+		<Case name='case 45'>
+			<DataItem value='4004.0' />
+			<DataItem value='9.0' />
+			<DataItem value='2.0' />
+			<DataItem value='2.0' />
+			<DataItem value='252.0' />
+			<DataItem value='259.0' />
+			<DataItem value='28.0' />
+			<DataItem value='241.0' />
+			<DataItem value='1.0' />
+			<DataItem value='88.0' />
+			<DataItem value='7.0' />
+		</Case>
+
+		<Case name='case 46'>
+			<DataItem value='12824.0' />
+			<DataItem value='11.0' />
+			<DataItem value='4.0' />
+			<DataItem value='3.0' />
+			<DataItem value='131.0' />
+			<DataItem value='311.0' />
+			<DataItem value='51.0' />
+			<DataItem value='361.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='180.0' />
+		</Case>
+
+		<Case name='case 47'>
+			<DataItem value='2331.0' />
+			<DataItem value='8.0' />
+			<DataItem value='2.0' />
+			<DataItem value='3.0' />
+			<DataItem value='106.0' />
+			<DataItem value='145.0' />
+			<DataItem value='6.0' />
+			<DataItem value='103.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='39.0' />
+		</Case>
+
+		<Case name='case 48'>
+			<DataItem value='5817.0' />
+			<DataItem value='9.0' />
+			<DataItem value='3.0' />
+			<DataItem value='3.0' />
+			<DataItem value='96.0' />
+			<DataItem value='204.0' />
+			<DataItem value='29.0' />
+			<DataItem value='192.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='108.0' />
+		</Case>
+
+		<Case name='case 49'>
+			<DataItem value='2989.0' />
+			<DataItem value='7.0' />
+			<DataItem value='2.0' />
+			<DataItem value='3.0' />
+			<DataItem value='116.0' />
+			<DataItem value='188.0' />
+			<DataItem value='18.0' />
+			<DataItem value='156.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='72.0' />
+		</Case>
+
+		<Case name='case 50'>
+			<DataItem value='3136.0' />
+			<DataItem value='6.0' />
+			<DataItem value='3.0' />
+			<DataItem value='3.0' />
+			<DataItem value='86.0' />
+			<DataItem value='135.0' />
+			<DataItem value='32.0' />
+			<DataItem value='131.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='49.0' />
+		</Case>
+
+		<Case name='case 51'>
+			<DataItem value='14434.0' />
+			<DataItem value='17.0' />
+			<DataItem value='2.0' />
+			<DataItem value='3.0' />
+			<DataItem value='221.0' />
+			<DataItem value='342.0' />
+			<DataItem value='35.0' />
+			<DataItem value='342.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='121.0' />
+		</Case>
+
+		<Case name='case 52'>
+			<DataItem value='2583.0' />
+			<DataItem value='12.0' />
+			<DataItem value='1.0' />
+			<DataItem value='1.0' />
+			<DataItem value='61.0' />
+			<DataItem value='157.0' />
+			<DataItem value='18.0' />
+			<DataItem value='130.0' />
+			<DataItem value='1.0' />
+			<DataItem value='87.0' />
+			<DataItem value='96.0' />
+		</Case>
+
+		<Case name='case 53'>
+			<DataItem value='3647.0' />
+			<DataItem value='12.0' />
+			<DataItem value='1.0' />
+			<DataItem value='3.0' />
+			<DataItem value='132.0' />
+			<DataItem value='221.0' />
+			<DataItem value='5.0' />
+			<DataItem value='155.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='89.0' />
+		</Case>
+
+		<Case name='case 54'>
+			<DataItem value='8232.0' />
+			<DataItem value='13.0' />
+			<DataItem value='3.0' />
+			<DataItem value='7.0' />
+			<DataItem value='45.0' />
+			<DataItem value='432.0' />
+			<DataItem value='16.0' />
+			<DataItem value='350.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='387.0' />
+		</Case>
+
+		<Case name='case 55'>
+			<DataItem value='3276.0' />
+			<DataItem value='12.0' />
+			<DataItem value='1.0' />
+			<DataItem value='1.0' />
+			<DataItem value='55.0' />
+			<DataItem value='167.0' />
+			<DataItem value='12.0' />
+			<DataItem value='129.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='112.0' />
+		</Case>
+
+		<Case name='case 56'>
+			<DataItem value='2723.0' />
+			<DataItem value='8.0' />
+			<DataItem value='1.0' />
+			<DataItem value='4.0' />
+			<DataItem value='124.0' />
+			<DataItem value='176.0' />
+			<DataItem value='14.0' />
+			<DataItem value='139.0' />
+			<DataItem value='2.0' />
+			<DataItem value='87.0' />
+			<DataItem value='52.0' />
+		</Case>
+
+		<Case name='case 57'>
+			<DataItem value='3472.0' />
+			<DataItem value='5.0' />
+			<DataItem value='3.0' />
+			<DataItem value='3.0' />
+			<DataItem value='120.0' />
+			<DataItem value='246.0' />
+			<DataItem value='15.0' />
+			<DataItem value='197.0' />
+			<DataItem value='2.0' />
+			<DataItem value='87.0' />
+			<DataItem value='126.0' />
+		</Case>
+
+		<Case name='case 58'>
+			<DataItem value='1575.0' />
+			<DataItem value='6.0' />
+			<DataItem value='1.0' />
+			<DataItem value='2.0' />
+			<DataItem value='47.0' />
+			<DataItem value='79.0' />
+			<DataItem value='14.0' />
+			<DataItem value='62.0' />
+			<DataItem value='2.0' />
+			<DataItem value='87.0' />
+			<DataItem value='32.0' />
+		</Case>
+
+		<Case name='case 59'>
+			<DataItem value='2926.0' />
+			<DataItem value='12.0' />
+			<DataItem value='1.0' />
+			<DataItem value='1.0' />
+			<DataItem value='126.0' />
+			<DataItem value='233.0' />
+			<DataItem value='23.0' />
+			<DataItem value='205.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='107.0' />
+		</Case>
+
+		<Case name='case 60'>
+			<DataItem value='1876.0' />
+			<DataItem value='6.0' />
+			<DataItem value='3.0' />
+			<DataItem value='2.0' />
+			<DataItem value='101.0' />
+			<DataItem value='146.0' />
+			<DataItem value='15.0' />
+			<DataItem value='117.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='45.0' />
+		</Case>
+
+		<Case name='case 61'>
+			<DataItem value='2520.0' />
+			<DataItem value='5.0' />
+			<DataItem value='1.0' />
+			<DataItem value='1.0' />
+			<DataItem value='78.0' />
+			<DataItem value='177.0' />
+			<DataItem value='14.0' />
+			<DataItem value='140.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='99.0' />
+		</Case>
+
+		<Case name='case 62'>
+			<DataItem value='1603.0' />
+			<DataItem value='13.0' />
+			<DataItem value='4.0' />
+			<DataItem value='7.0' />
+			<DataItem value='69.0' />
+			<DataItem value='143.0' />
+			<DataItem value='14.0' />
+			<DataItem value='113.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='74.0' />
+		</Case>
+
+		<Case name='case 63'>
+			<DataItem value='3626.0' />
+			<DataItem value='8.0' />
+			<DataItem value='1.0' />
+			<DataItem value='3.0' />
+			<DataItem value='194.0' />
+			<DataItem value='291.0' />
+			<DataItem value='35.0' />
+			<DataItem value='291.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='97.0' />
+		</Case>
+
+		<Case name='case 64'>
+			<DataItem value='11361.0' />
+			<DataItem value='15.0' />
+			<DataItem value='2.0' />
+			<DataItem value='4.0' />
+			<DataItem value='323.0' />
+			<DataItem value='507.0' />
+			<DataItem value='35.0' />
+			<DataItem value='507.0' />
+			<DataItem value='2.0' />
+			<DataItem value='87.0' />
+			<DataItem value='184.0' />
+		</Case>
+
+		<Case name='case 65'>
+			<DataItem value='1267.0' />
+			<DataItem value='10.0' />
+			<DataItem value='1.0' />
+			<DataItem value='3.0' />
+			<DataItem value='42.0' />
+			<DataItem value='73.0' />
+			<DataItem value='27.0' />
+			<DataItem value='67.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='31.0' />
+		</Case>
+
+		<Case name='case 66'>
+			<DataItem value='2548.0' />
+			<DataItem value='5.0' />
+			<DataItem value='1.0' />
+			<DataItem value='2.0' />
+			<DataItem value='74.0' />
+			<DataItem value='117.0' />
+			<DataItem value='25.0' />
+			<DataItem value='105.0' />
+			<DataItem value='2.0' />
+			<DataItem value='87.0' />
+			<DataItem value='43.0' />
+		</Case>
+
+		<Case name='case 67'>
+			<DataItem value='1155.0' />
+			<DataItem value='10.0' />
+			<DataItem value='3.0' />
+			<DataItem value='4.0' />
+			<DataItem value='101.0' />
+			<DataItem value='158.0' />
+			<DataItem value='9.0' />
+			<DataItem value='117.0' />
+			<DataItem value='2.0' />
+			<DataItem value='87.0' />
+			<DataItem value='57.0' />
+		</Case>
+
+		<Case name='case 68'>
+			<DataItem value='546.0' />
+			<DataItem value='6.0' />
+			<DataItem value='0.0' />
+			<DataItem value='4.0' />
+			<DataItem value='97.0' />
+			<DataItem value='139.0' />
+			<DataItem value='6.0' />
+			<DataItem value='99.0' />
+			<DataItem value='3.0' />
+			<DataItem value='86.0' />
+			<DataItem value='42.0' />
+		</Case>
+
+		<Case name='case 69'>
+			<DataItem value='2275.0' />
+			<DataItem value='13.0' />
+			<DataItem value='2.0' />
+			<DataItem value='3.0' />
+			<DataItem value='134.0' />
+			<DataItem value='211.0' />
+			<DataItem value='13.0' />
+			<DataItem value='165.0' />
+			<DataItem value='2.0' />
+			<DataItem value='84.0' />
+			<DataItem value='77.0' />
+		</Case>
+
+		<Case name='case 70'>
+			<DataItem value='9100.0' />
+			<DataItem value='26.0' />
+			<DataItem value='4.0' />
+			<DataItem value='5.0' />
+			<DataItem value='482.0' />
+			<DataItem value='709.0' />
+			<DataItem value='26.0' />
+			<DataItem value='645.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='227.0' />
+		</Case>
+
+		<Case name='case 71'>
+			<DataItem value='595.0' />
+			<DataItem value='6.0' />
+			<DataItem value='0.0' />
+			<DataItem value='2.0' />
+			<DataItem value='213.0' />
+			<DataItem value='286.0' />
+			<DataItem value='6.0' />
+			<DataItem value='203.0' />
+			<DataItem value='3.0' />
+			<DataItem value='84.0' />
+			<DataItem value='73.0' />
+		</Case>
+
+		<Case name='case 72'>
+			<DataItem value='13860.0' />
+			<DataItem value='24.0' />
+			<DataItem value='2.0' />
+			<DataItem value='3.0' />
+			<DataItem value='473.0' />
+			<DataItem value='655.0' />
+			<DataItem value='40.0' />
+			<DataItem value='688.0' />
+			<DataItem value='2.0' />
+			<DataItem value='86.0' />
+			<DataItem value='182.0' />
+		</Case>
+
+		<Case name='case 73'>
+			<DataItem value='1400.0' />
+			<DataItem value='12.0' />
+			<DataItem value='4.0' />
+			<DataItem value='4.0' />
+			<DataItem value='229.0' />
+			<DataItem value='398.0' />
+			<DataItem value='39.0' />
+			<DataItem value='414.0' />
+			<DataItem value='3.0' />
+			<DataItem value='85.0' />
+			<DataItem value='169.0' />
+		</Case>
+
+		<Case name='case 74'>
+			<DataItem value='2800.0' />
+			<DataItem value='12.0' />
+			<DataItem value='4.0' />
+			<DataItem value='3.0' />
+			<DataItem value='227.0' />
+			<DataItem value='300.0' />
+			<DataItem value='34.0' />
+			<DataItem value='297.0' />
+			<DataItem value='1.0' />
+			<DataItem value='83.0' />
+			<DataItem value='73.0' />
+		</Case>
+
+		<Case name='case 75'>
+			<DataItem value='9520.0' />
+			<DataItem value='24.0' />
+			<DataItem value='4.0' />
+			<DataItem value='4.0' />
+			<DataItem value='395.0' />
+			<DataItem value='588.0' />
+			<DataItem value='40.0' />
+			<DataItem value='617.0' />
+			<DataItem value='1.0' />
+			<DataItem value='86.0' />
+			<DataItem value='193.0' />
+		</Case>
+
+		<Case name='case 76'>
+			<DataItem value='5880.0' />
+			<DataItem value='12.0' />
+			<DataItem value='4.0' />
+			<DataItem value='3.0' />
+			<DataItem value='469.0' />
+			<DataItem value='645.0' />
+			<DataItem value='43.0' />
+			<DataItem value='697.0' />
+			<DataItem value='3.0' />
+			<DataItem value='86.0' />
+			<DataItem value='176.0' />
+		</Case>
+
+		<Case name='case 77'>
+			<DataItem value='23940.0' />
+			<DataItem value='36.0' />
+			<DataItem value='4.0' />
+			<DataItem value='4.0' />
+			<DataItem value='886.0' />
+			<DataItem value='1127.0' />
+			<DataItem value='34.0' />
+			<DataItem value='1116.0' />
+			<DataItem value='1.0' />
+			<DataItem value='85.0' />
+			<DataItem value='241.0' />
+		</Case>
+
+	</Data>
+
+</DataSet>

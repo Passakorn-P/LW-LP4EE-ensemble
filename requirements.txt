@@ -1,0 +1,17 @@
+# Required but NOT installable through this file (install manually, see README):
+#   lpsolve55   Python bindings of lp_solve 5.5 (not on PyPI; e.g. from conda
+#               or by building the lp_solve Python driver). Verify with:
+#               python -c "from lpsolve55 import lpsolve"
+#   R packages  linprog, lpSolve (CRAN) and WRS (GitHub: nicebread/wrs), used
+#               through rpy2.
+
+lightgbm==4.5.0
+matplotlib==3.10.9
+numpy==2.4.6
+pandas==2.2.3
+pyarrow==19.0.0
+rpy2==3.6.7
+scikit-learn==1.5.2
+scipy==1.15.1
+tabulate==0.9.0
+threadpoolctl==3.6.0
