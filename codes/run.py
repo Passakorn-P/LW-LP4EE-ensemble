@@ -128,7 +128,7 @@ def run_rq4():
             raise FileNotFoundError(f'Baseline results for {model_name} not found. Run --stage baselines first.')
 
     t0 = time.time()
-    table, stat_results = Rq4Eval.run()
+    Rq4Eval.run()
     os.makedirs(Configurations.TABLE_PATH, exist_ok=True)
     print(f'\nRQ4 finished in {time.time() - t0:.1f} s')
 

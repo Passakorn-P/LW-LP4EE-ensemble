@@ -47,7 +47,12 @@ class Rq4Eval:
         'Orig.LP4EE': '#D55E00',
         'LP4EE$_{SROpt}$': '#009E73',
     }
-    RAW_VALUE_MARKERS = {'MAE': 'o', 'MdAE': 's', 'LSD': '^'}
+    RAW_VALUE_METHOD_MARKERS = {
+        'LW-LP4EE': '*',
+        'LP4EE$_{SROpt}$': 's',
+        'Orig.LP4EE': '^',
+    }
+    RAW_VALUE_DEFAULT_MARKER = 'o'
     RAW_VALUE_DATASET_NAMES = {
         'Cocomo81-e': 'Cocomo81-e',
         'Cocomo81-non-e': 'Cocomo81-non-e',
@@ -347,9 +352,6 @@ class Rq4Eval:
         metrics = list(Rq4Eval.METRICS)
         if not methods or not metrics:
             raise ValueError('Raw-value plot needs methods and metrics')
-        missing_markers = set(metrics) - set(Rq4Eval.RAW_VALUE_MARKERS)
-        if missing_markers:
-            raise ValueError(f'No raw-value markers for {sorted(missing_markers)}')
         columns = [f'{method}_{metric}' for metric in metrics for method in methods]
         missing = sorted(set(columns) - set(table.columns))
         if missing:
@@ -400,15 +402,16 @@ class Rq4Eval:
             subset = data[data['dataset'] == dataset]
             for lane, metric in enumerate(metrics):
                 group = subset[subset['metric'] == metric].set_index('method')
-                marker = Rq4Eval.RAW_VALUE_MARKERS[metric]
                 ax.hlines(lane, 0, 100, color='#bbbbbb', linewidth=1, zorder=1)
                 for method in methods:
                     name = Rq4Eval._display_name(method)
                     colored = method in highlighted
+                    marker = Rq4Eval.RAW_VALUE_METHOD_MARKERS.get(
+                        name, Rq4Eval.RAW_VALUE_DEFAULT_MARKER)
                     ax.scatter(
                         group.loc[method, 'range_position_pct'],
                         lane, marker=marker,
-                        s=110 if colored else 65,
+                        s=(190 if marker == '*' else 110) if colored else 65,
                         color=Rq4Eval.RAW_VALUE_COLORS.get(name, '#a0a0a0'),
                         edgecolors='white', linewidths=0.7,
                         zorder=Rq4Eval.RAW_VALUE_ZORDERS.get(name, 2))
@@ -435,34 +438,22 @@ class Rq4Eval:
         for unused in range(len(table), nrows * ncols):
             column, row = divmod(unused, nrows)
             fig.delaxes(axes[row, column])
-        handles = [Line2D([], [], marker='o', linestyle='none', markersize=10,
-                          color=Rq4Eval.RAW_VALUE_COLORS[Rq4Eval._display_name(m)],
-                          label=Rq4Eval._display_name(m)) for m in highlighted]
-        handles.append(Line2D([], [], marker='o', linestyle='none', markersize=9, color='#a0a0a0',
-                              label='Other methods'))
-        metric_handles = [Line2D([], [], marker=Rq4Eval.RAW_VALUE_MARKERS[m],
-                                 linestyle='none', markersize=9, color='#333333', label=m)
-                          for m in metrics]
-        handles.insert(0, Line2D([], [], linestyle='none', label='Method:'))
-        metric_handles.insert(0, Line2D([], [], linestyle='none', label='Metric:'))
-        legend_columns = max(len(handles), len(metric_handles))
-        legend_handles = []
-        for column in range(legend_columns):
-            for row_handles in (handles, metric_handles):
-                legend_handles.append(row_handles[column] if column < len(row_handles)
-                                      else Line2D([], [], linestyle='none', label=''))
-        fig.suptitle('Raw prediction errors by dataset', y=1.00, fontsize=19, fontweight='bold')
-        legend = fig.legend(handles=legend_handles, loc='lower center', bbox_to_anchor=(0.52, -0.00),
-                            ncol=legend_columns, frameon=True, framealpha=1, fontsize=12,
-                            labelspacing=0.8, borderpad=0.7, handleheight=2.2)
-        for text in legend.get_texts():
-            if text.get_text() in ('Method:', 'Metric:'):
-                text.set_fontsize(13)
-                text.set_fontweight('bold')
+        handles = []
+        for m in highlighted:
+            name = Rq4Eval._display_name(m)
+            marker = Rq4Eval.RAW_VALUE_METHOD_MARKERS.get(name, Rq4Eval.RAW_VALUE_DEFAULT_MARKER)
+            handles.append(Line2D([], [], marker=marker, linestyle='none',
+                                  markersize=14 if marker == '*' else 10,
+                                  color=Rq4Eval.RAW_VALUE_COLORS[name], label=name))
+        handles.append(Line2D([], [], marker=Rq4Eval.RAW_VALUE_DEFAULT_MARKER, linestyle='none',
+                              markersize=9, color='#a0a0a0', label='Other methods'))
+        fig.legend(handles=handles, loc='lower center', bbox_to_anchor=(0.52, -0.00),
+                   ncol=len(handles), frameon=True, framealpha=1, fontsize=12,
+                   borderpad=0.7)
 
         for text in fig.findobj(match=Text):
             text.set_zorder(6)
-        fig.subplots_adjust(left=0.065, right=0.98, top=0.93, bottom=0.16,
+        fig.subplots_adjust(left=0.065, right=0.95, top=0.93, bottom=0.12,
                             hspace=0.65, wspace=0.20)
         root = Path(Rq4Eval.STAT_PLOT_DIR if plot_dir is None else plot_dir)
         root.mkdir(parents=True, exist_ok=True)

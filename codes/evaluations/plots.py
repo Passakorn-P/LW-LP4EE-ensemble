@@ -273,8 +273,7 @@ class Rq2Eval:
         )
         line_handles.append(else_handle)
 
-        ax_trend.set_title('(a) Highest achievable improvement\ncount by subset size',
-                           loc='center', fontsize=16.5, fontweight='bold', pad=12)
+        ax_trend.set_title('(a)', loc='center', fontsize=16.5, fontweight='bold', pad=12)
         ax_trend.set_xlabel('Bandwidth subset size', fontsize=15, labelpad=8)
         ax_trend.set_ylabel('Mean joint improvement count', fontsize=15, labelpad=10)
         ax_trend.set_xticks(subset_sizes)
@@ -311,8 +310,7 @@ class Rq2Eval:
             ax_total.text(value + std + 0.18, bar.get_y() + bar.get_height() / 2,
                           rf'{value:.2f} $\pm$ {std:.2f}', va='center', fontsize=12,
                           fontweight='bold' if kernel in highlighted else 'normal')
-        ax_total.set_title('(b) Kernel ranking\n by mean of the per-size\n best counts',
-                           loc='center', fontsize=16, fontweight='bold', pad=14)
+        ax_total.set_title('(b)', loc='center', fontsize=16, fontweight='bold', pad=14)
         ax_total.set_xlabel('Mean of the per-size \n best joint improvement counts',
                             fontsize=15, labelpad=8)
         ax_total.set_xlim(0, 14)
@@ -492,7 +490,7 @@ class Rq3Eval:
         )
         line_handles.append(else_handle)
 
-        ax.set_title(panel_title, loc='center', fontsize=13.5, fontweight='bold', pad=12,)
+        ax.set_title(panel_title, loc='center', fontsize=17, fontweight='bold', pad=12,)
         ax.set_xlabel(x_label, fontsize=12, labelpad=8)
         ax.set_ylabel('Mean joint improvement count', fontsize=12, labelpad=10)
         ax.set_xticks(x_values)
@@ -511,7 +509,7 @@ class Rq3Eval:
 
     @staticmethod
     def _draw_joint_heatmap(ax, combined_table, cmap='PuBu', annotate=True,
-                             title='(b) Optimal (kernel, bandwidth)\nsubset-size region',
+                             title='(b)',
                              highlight_threshold=12.3):
 
         metric_scores = Rq3Eval._metric_score_matrix(combined_table)
@@ -533,7 +531,7 @@ class Rq3Eval:
         ax.set_yticklabels(kernel_sizes, fontsize=12)
         ax.set_xlabel('Bandwidth subset size', fontsize=12, labelpad=8)
         ax.set_ylabel('Kernel subset size', fontsize=12, labelpad=8)
-        ax.set_title(title, loc='center', fontsize=14, fontweight='bold', pad=12)
+        ax.set_title(title, loc='center', fontsize=18, fontweight='bold', pad=12)
 
         if annotate:
             threshold = np.nanmin(values) + (np.nanmax(values) - np.nanmin(values)) * 0.6
@@ -589,7 +587,7 @@ class Rq3Eval:
         Rq3Eval._plot_trend_panel(
             ax_trend, average_improvements, bandwidth_sizes, 'Bandwidth subset size',
             'Kernel subset size', 'a',
-            '(a) Highest achievable ensemble\nimprovement count by subset size',
+            '(a)',
         )
         summary = Rq3Eval._draw_joint_heatmap(ax_heat, combined_table, cmap=cmap)
 
@@ -781,7 +779,7 @@ class Rq3_2Eval:
         norm = Normalize(vmin=np.nanmin(values), vmax=np.nanmax(values))
         mesh, summary = Rq3_2Eval._draw_heatmap_only(
             ax_heat, values, k_names, b_names, cmap=cmap, norm=norm,
-            panel_title='Optimal (named kernel subset, named bandwidth subset) region',
+            panel_title='',
             value_fmt=lambda v: f'{v:.1f}', best='max',
             fonts=fonts, col_separators=col_separators,
             highlight_threshold=highlight_threshold,

@@ -56,3 +56,4 @@ htmlcov/
 
 # pyenv
 # .python-version
+.idea
